@@ -32,40 +32,26 @@
             <ul class="navbar-nav mr-auto">   
                 <li class="nav-item dropdown">   
                     <a class="nav-link dropdown-toggle" href="#" id="receitasDropdown" 
-                        role="button" data-toggle="dropdown" aria-haspopup="true" 
+                        role="button" data-bs-toggle="dropdown" aria-haspopup="true" 
                         aria-expanded="false">
                         Receitas
                     </a>
                     <div class="dropdown-menu" aria-labelledby="#receitasDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="recipes/recipes.html">Latest</a>
+                        <a class="dropdown-item" href="#">Pasta</a>
+                        <a class="dropdown-item" href="#">Steaks</a>
+                        <a class="dropdown-item" href="#">Seafood</a>
+                        <a class="dropdown-item" href="#">Deserts</a>
                     </div>
                 </li>   
                 <li class="nav-item">  
                     <a class="nav-link" href="#">Instituiçôes</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="recipes/recipes.html">Recipes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Restaurants</a>
-              </li>
-            </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-warning" type="submit">Search</button>
             </form>
-        
         </div>
       
     </nav>
@@ -105,14 +91,54 @@
 
         <div>
             <h1 style="padding-top:0.5em;">Últimas receitas</h1>
-            <article>
-                <ul>
-                    <li><a href="/recipes/lasagna.html">Lasagna alla Bolognese</a></li>
-                    <li><a href="/recipes/shrimprisotto.html">Shrimp Risotto</a></li>
-                    <li><a href="/recipes/spaghetticarbonara.html">Spaghetti Carbonara</a></li>
-                    <li><a href="/recipes/galicmayo.html">Garlic Mayo Dip</a></li>
-                </ul>
-            </article>
+
+            <div class="row"  style="justify-content: center;">
+                <div class="card mb-5" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/images/homemade-gnocchi-recipe-20-scaled.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Potato Gnocchi</h5>
+                          <p class="card-text">Homemade gnocchi sounds tricky, but the actual process is pretty easy — and well worth the effort.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"  style="justify-content: center;">
+                <div class="card mb-5" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/images/Coxinha-de-charque.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Coxinha</h5>
+                          <p class="card-text">Coxinha is a popular street food snack in Brazil and is fun and economical to make. Think of it as savory dough shaped into a drumstick with a creamy chicken salad filling. It's then battered and fried to golden, crispy perfection. </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"  style="justify-content: center;">
+                <div class="card mb-5" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/images/key-lime-mousse-sq.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Lime Mouse</h5>
+                            <p class="card-text">
+                                Simple Lime Mousse is the perfect pairing of zesty lime and fluffy whipped cream. "It's light and refreshing, especially after a meal that's left your taste buds tingling"
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -120,24 +146,26 @@
     <footer>
         <div class="row">
             <div class="col-xl-3">
-                <h5>Receitas</h5>
+                <h5>Recipes</h5>
                 <ul class="list-unstyled">
-                    <li></li>
+                    <li>Main Dishes</li>
+                    <li>Deserts</li>
+                    <li>Drinks</li>
                 </ul>
             </div>
 
             <div class="col-xl-3">
-                <h5>Parcerias</h5>
+                <h5>Fonts</h5>
                 <h5></h5>
                 <ul class="list-unstyled">
-                    <li></li>
+                    <li>le cordon bleu</li>
                 </ul>
             </div>
 
             <div class="col-xl-3">
-                <h5>Contato</h5>
+                <h5>Contact</h5>
                 <ul class="list-unstyled">
-                    <li></li>
+                    <li>(99) 9 9999 9999</li>
                 </ul>
             </div>
         </div>
